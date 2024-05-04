@@ -57,5 +57,7 @@ public String changed(int id,StudentDetails s) {
     sr.save(e);
        return "Updated";
 	}
-
+public List<StudentDetails> getall() {
+	return sr.findAll();
+}
 }

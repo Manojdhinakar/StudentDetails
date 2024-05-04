@@ -46,7 +46,7 @@ public List<StudentDetails> getName(String name){
 public String changed(int id,StudentDetails s) {
 return sd.changed(id, s);
 }
-
-
-
+public List<StudentDetails> getall() {
+return sd.getall();
+}
 }

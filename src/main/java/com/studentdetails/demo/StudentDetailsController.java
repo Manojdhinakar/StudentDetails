@@ -54,6 +54,9 @@ public String changed(@PathVariable int id,@RequestBody StudentDetails s) {
 	
 return sd.changed(id,s);
 }
+@GetMapping("/g")public List<StudentDetails> getall() {
+return sd.getall();
+}
 
 }
 
